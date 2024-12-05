@@ -99,3 +99,9 @@ body {
   .submenu a:hover {
     background-color: #444444;
   }
+
+  .tableheadclass {
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
