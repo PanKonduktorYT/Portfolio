@@ -3,12 +3,116 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Umiejętności</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #f5f5f5;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        tr:hover {
+            background-color: #444;
+        }
+        td {
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="sidebar">
+        <div class="logo">
+            <img src="src/portfoliopk.jpg" width="250px">
+          <h1>Piotr Kruszec</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="mainpage.html">🏠 Strona Główna</a></li>
+            <li class="has-submenu"><a href="aboutme.html">👤 O Mnie</a>
+                <ul class="submenu">
+                    <li><a href="bio.html">Biografia</a></li>
+                    <li><a href="skills.html">Umiejętności</a></li>
+                    <li><a href="#education">Edukacja</a></li>
+                </ul>
+            </li>
+            <li><a href="projects.html">📂 Projekty</a></li>
+            <li><a href="hacking.html">💻 Hacking</a></li>
+            <li><a href="contact.html">✉️ Kontakt</a></li>
+        </ul>
+        <div class="social">
+            <a href="https://x.com" target="_blank"> X</a>
+            <a href="https://github.com/PanKonduktorYT" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="discord.com" target="_blank"><i class="fa-brands fa-discord"></i> Discord</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Witaj w moim portfolio</h1>
+        <p>Tu znajdziesz informacje o moich projektach i umiejętnościach.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Umiejętność</th>
+                    <th>Poziom</th>
+                    <th>Notatka</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Zaawansowany</td>
+                    <td>Swobodna praca z kodem, w tym responsywność.</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Średniozaawansowany</td>
+                    <td>Znajomość Flexbox i Grid.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Podstawowy</td>
+                    <td>Umiejętność tworzenia prostych skryptów.</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Zaawansowany</td>
+                    <td>Tworzenie skryptów, analiza danych.</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Średniozaawansowany</td>
+                    <td>Tworzenie zapytań i zarządzanie bazami danych.</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Zaawansowany</td>
+                    <td>Umiejętność tworzenia programów, analiza danych, robienie aplikacji bazodanowych</td>
+                </tr>
+                <tr>
+                    <td>Sieć TOR</td>
+                    <td>Średniozaawansowany</td>
+                    <td>Wyszukiwanie informacji, danych i wycieków ze stron internetowych</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
