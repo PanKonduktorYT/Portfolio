@@ -111,3 +111,8 @@ body {
     justify-content: center;
     align-items: center;
   }
+  
+  maincontent{
+    display: flex;
+    flex-direction: column;
+  }
